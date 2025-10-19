@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Iñigo González</title>
-<!-- Our project just needs Font Awesome solid + brand -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
   <body>
@@ -14,32 +14,48 @@
       <div class="max-w-sm bg-gray-50 rounded-xl p-5">
 
         <div class="flex-shrink place-items-center p-8 bg-gray-100">
-          <img class="rounded-full h8 w8" src="img/foto.jpg" >
+          <img class="rounded-full h8 w8" src="img/avatar.jpg" >
         </div>
         <!-- text etc-->
         <div class="p-2 bg-gray-100">
 
           <p class="p-1 text-center text-xl text-black">Íñigo González Ponce</p>
 
-          <p class="p-2 text-center text-lg">
-          <span id='linkedin'>
-            <a href="https://linkedin.com/in/igponce"></i>LinkedIn</a>
-          </span>
-          <span id='twitter'>
-            <a href="https://twitter.com/exocert">Twitter</a>
-          </span>
-          <span id='instagram'>
-            <a href="https://www.instagram.com/inigo_monkeypainter/">Instagram</a>
-          <span id='github'>
-            <a href="https://github.com/igponce">Github</a>
-          </span>   
-          <span id='stackoverflow'>
-            <a href="https://stackoverflow.com/users/6760372/i%c3%b1igo-gonz%c3%a1lez">StackOverflow</a>
-          </span>
-          </p>
+          <div class="flex justify-center space-x-4 mb-4">
+  
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/inigo_monkeypainter/" 
+              class="w-10 h-10 rounded-full hover:bg-gray-300 flex items-center justify-center transition-colors duration-300"
+              aria-label="Instagram">
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+  
+          <!-- Bluesky -->
+          <a href="https://bsky.app/profile/exocert.bsky.social" 
+            class="w-10 h-10 rounded-full hover:bg-gray-300 flex items-center justify-center transition-colors duration-300"
+            aria-label="Bluesky">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 600 530" xmlns="http://www.w3.org/2000/svg">
+              <path d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z"/>
+            </svg>
+            </a>
 
-        </div>
-      
+            <!-- Linkedin -->
+            <a href="https://linkedin.com/in/igponce" 
+              class="w-10 h-10 rounded-full hover:bg-gray-300 flex items-center justify-center transition-colors duration-300"
+              aria-label="Instagram">
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+
+            <!-- Stack Overflow -->
+            <a href="https://stackoverflow.com/users/6760372/i%c3%b1igo-gonz%c3%a1lez" 
+               class="w-10 h-10 rounded-full hover:bg-gray-300 flex items-center justify-center transition-colors duration-300"
+               aria-label="Stack Overflow">
+            <i class="fab fa-stack-overflow text-xl"></i>
+            </a>
+          
+
+          </div>
+
      </div>
   </body>
 </html>
