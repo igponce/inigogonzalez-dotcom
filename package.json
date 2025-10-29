@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
+    "build:clean": "webpack --config webpack.config.js --no-cache",
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && webpack serve --config webpack.config.js"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "",
     "mini-css-extract-plugin": "^2.3.0",
+    "npm": "^11.6.2",
     "package.json": "^2.0.1",
     "postcss": "^8.3.6",
     "postcss-loader": "^6.1.1",
